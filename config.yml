@@ -1,0 +1,27 @@
+project:
+	id: 
+
+network:
+  name: "memcached-lite-network"
+
+firewall_1:
+  name: "mc-lite-allow-1"
+
+firewall_2:
+  name: "mc-lite-allow-2"
+
+server:
+  name: "mc-server"
+
+client:
+  name: "mc-client"
+
+zone: "us-central1-a"
+
+startup_script_filepath: "./metadata.sh"
+
+servercode_filepath: "./memcached-lite-asangar-server.zip"
+
+clientcode_filepath: "./memcached-lite-asangar-client.zip"
+
+billing_account: "011181-0B06C2-344297"
