@@ -1,5 +1,5 @@
 # gcp-deployment-memcached-lite
-**Deployment and automation** of <a href="https://github.com/amolsangar/memcached-lite">memcached-lite</a> service on Google cloud VMs
+**Deployment automation** of <a href="https://github.com/amolsangar/memcached-lite">memcached-lite</a> service on Google cloud VMs
 
 ## Requirement
 - Make sure GCP SDK is installed along with GCP Beta SDK (for linking projects with billing account)
